@@ -45,14 +45,13 @@ RequiredPackages.csv contains a list of all the requisite pacakges with version
 ### Files ######################################################################
 
 SimulationScript.R - Running this file will load in all packages and run code to
-  produce the data in our paper
+  produce the data in our paper.
 
 Functions.R - Sourced in CompleteSourceScript.R. All of the functions required
   to run and analyze these simulations.
 
 Model_SourceOnly.R - Sourced in CompleteSourceScript.R. This script contains the
-  code to perform simulations. Must be run by sourcing
-  SimulationScript.R.
+  code to perform simulations. Must be run by sourcing SimulationScript.R.
 
 Packages.R - Sourced in CompleteSourceScript.R. Loads all of the required
   packages. Sets library to the Packages directory.
@@ -60,8 +59,12 @@ Packages.R - Sourced in CompleteSourceScript.R. Loads all of the required
 Grid_Source_Script.R - This will run many simulations with different bounds on
   stress thresholds. These results are used in Figs 5, 6, and S7.
 
+G_e_diffusion.R - Realistically simulates glutamate flow into a nonsignaling 
+  biofilm and calculates the mean internal and external glutamate by time and
+  depth.
+
 K_diffusion.R - Calculates the oscillations of potassium caused by a signaling
-  biofilm over several minutes out to a distance of 10 mm.
+  biofilm over several minutes out to a distance of 4 mm.
 
 K_sync_simulation.R - Given a distance, takes the return from K_diffusion.R and
   runs 10 simulations of a biofilm beign exposed to the K+ oscillations caused
