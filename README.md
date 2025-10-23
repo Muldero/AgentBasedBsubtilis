@@ -61,7 +61,7 @@ Grid_Source_Script.R - This will run many simulations with different bounds on
 
 G_e_diffusion.R - Realistically simulates glutamate flow into a nonsignaling 
   biofilm and calculates the mean internal and external glutamate by time and
-  depth.
+  depth. Also contains code to produce Fig S8.
 
 K_diffusion.R - Calculates the oscillations of potassium caused by a signaling
   biofilm over several minutes out to a distance of 4 mm.
